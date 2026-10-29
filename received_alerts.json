@@ -1,0 +1,36 @@
+[
+    {
+        "alert_type": "STALE_FILE",
+        "file_name": "orders.csv",
+        "file_path": "C:\\Users\\vtangeti\\Downloads\\stale_file_monitoring_poc\\stale_file_monitoring_poc\\updated\\source\\orders.csv",
+        "file_age_minutes": 28,
+        "threshold_minutes": 5,
+        "size_bytes": 13,
+        "severity": "HIGH",
+        "reason": "orders.csv has remained in the monitored folder for 28 minutes, exceeding the configured stale threshold of 5 minutes.",
+        "recommended_actions": [
+            "Check whether the file-processing service is running.",
+            "Verify source and destination folder permissions.",
+            "Review processing logs for errors related to this file.",
+            "Confirm whether the file is waiting for another process."
+        ],
+        "received_at": "2026-10-28T16:08:09+05:30"
+    },
+    {
+        "alert_type": "STALE_FILE",
+        "file_name": "report.txt",
+        "file_path": "C:\\Users\\vtangeti\\Downloads\\stale_file_monitoring_poc\\stale_file_monitoring_poc\\updated\\source2\\report.txt",
+        "file_age_minutes": 28,
+        "threshold_minutes": 5,
+        "size_bytes": 46,
+        "severity": "HIGH",
+        "reason": "report.txt has remained in the monitored folder for 28 minutes, exceeding the configured stale threshold of 5 minutes.",
+        "recommended_actions": [
+            "Check whether the file-processing service is running.",
+            "Verify source and destination folder permissions.",
+            "Review processing logs for errors related to this file.",
+            "Confirm whether the file is waiting for another process."
+        ],
+        "received_at": "2026-10-28T16:08:11+05:30"
+    }
+]
